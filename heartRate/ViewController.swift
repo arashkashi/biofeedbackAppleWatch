@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import HealthKit
 
 class ViewController: UIViewController {
 
@@ -19,6 +20,12 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func onButton(_ sender: Any) {
+        
+//        HealthKitManager.shared.initiateQuery()
+    }
+    
 
 
 }
